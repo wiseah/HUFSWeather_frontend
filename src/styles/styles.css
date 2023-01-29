@@ -636,6 +636,14 @@ video {
   margin-right: 1.25rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -775,7 +783,20 @@ video {
     margin-left: auto;
   }
 
+  .md\:ml-20 {
+    margin-left: 5rem;
+  }
+
+  .md\:w-\[32rem\] {
+    width: 32rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
