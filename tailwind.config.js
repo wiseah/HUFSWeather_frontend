@@ -1,12 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+
+  theme: {
+		fontFamily: {
+			GangwonBold: ["GangwonEduPowerExtraBoldA", "sans-serif"],
+      GmarketMedium: ["GmarketSansMedium", "sans-serif"],
+      GmarketLight: ["GmarketSansLight", "sans-serif"]
+		},
+	},
 
   variants: {
     extends: {},
   },
   plugins: [],
-};
+}
