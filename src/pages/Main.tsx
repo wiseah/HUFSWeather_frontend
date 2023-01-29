@@ -6,7 +6,6 @@ const Main = () => {
   return (
     <div>
       <Header />
-      //여기에 로고 이미지 넣을 것.
       <div>
         <section>
           <div className="md:w-[32rem]">
@@ -48,11 +47,11 @@ const Main = () => {
 
             <h2 className=" md:ml-20 text-sm md:text-base">WHO?</h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base">
-              프론트엔드: 환경학과 김현아 & 컴퓨터공학부 이교은
+              FrontEnd: 환경학과 김현아 & 컴퓨터공학부 이교은
               <br></br>
-              백엔드: 컴퓨터공학부 노기연 & 전자공학과 전승재
+              BackEnd: 컴퓨터공학부 노기연 & 전자공학과 전승재
               <br></br>
-              기획: 환경학과 김현아 / 디자인: GBT학부 정준서
+              Design: GBT학부 정준서
             </p>
           </div>
         </section>
