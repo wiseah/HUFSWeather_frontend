@@ -1,17 +1,21 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeaderMy from "../components/HeaderMy";
 
 const Main = () => {
   return (
     <div>
-      <Header />
+      <HeaderMy />
       <div>
         <section>
           <div className="md:w-[32rem]">
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHAT?</h2>
+            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">
+              WHAT?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
-              <span className="text-rose-600">외상청</span>은 "한국외국어대학교 기상청"의 준말로, 서울 캠퍼스와
+              <span className="text-rose-600">외상청</span>은 "한국외국어대학교
+              기상청"의 준말로, 서울 캠퍼스와
               <br></br>
               글로벌 캠퍼스의 날씨 정보를 간단하고 명료하게 전달해드립니다.
               <br></br>
@@ -20,7 +24,9 @@ const Main = () => {
               유용한 정보를 제공하고자 합니다.
             </p>
 
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHY?</h2>
+            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">
+              WHY?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
               에브리타임에서 캠퍼스의 날씨를 물어보는 글을 자주 보았습니다.
               <br></br>
@@ -45,7 +51,9 @@ const Main = () => {
               기획하게 되었습니다.
             </p>
 
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHO?</h2>
+            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">
+              WHO?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
               FrontEnd: 환경학과 김현아 & 컴퓨터공학부 이교은
               <br></br>
