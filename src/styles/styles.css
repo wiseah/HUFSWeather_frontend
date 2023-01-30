@@ -648,6 +648,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -730,6 +734,10 @@ video {
   text-align: center;
 }
 
+.font-GmarketMedium {
+  font-family: GmarketSansMedium, sans-serif;
+}
+
 .font-GangwonBold {
   font-family: GangwonEduPowerExtraBoldA, sans-serif;
 }
@@ -782,6 +790,23 @@ video {
   color: rgb(225 29 72 / var(--tw-text-opacity));
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-100:hover {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:text-gray-700:hover {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -826,6 +851,10 @@ video {
     width: 32rem;
   }
 
+  .md\:w-\[50rem\] {
+    width: 50rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -834,23 +863,4 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-}
-
-@font-face {
-  font-family: 'GangwonEduPowerExtraBoldA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "GmarketSansMedium";
-
-  src: url("../static/font/GmarketSansTTFMedium.ttf");
-}
-
-@font-face {
-  font-family: "GmarketSansLight";
-
-  src: url("../static/font/GmarketSansTTFLight.ttf");
 }

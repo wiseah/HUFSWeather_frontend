@@ -1,11 +1,11 @@
 import React from "react";
-import Main from "./pages/Main";
+import Test from "./pages/test";
 
 function App() {
   return (
     <div>
       
-      <Main />
+     <Test />
       
     </div>
   );
