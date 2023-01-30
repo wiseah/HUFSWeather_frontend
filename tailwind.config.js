@@ -8,6 +8,7 @@ module.exports = {
   theme: {
 		fontFamily: {
 			GangwonBold: ["GangwonEduPowerExtraBoldA", "sans-serif"],
+      GmarketBold: ["GmarketSansBold", "sans-serif"],
       GmarketMedium: ["GmarketSansMedium", "sans-serif"],
       GmarketLight: ["GmarketSansLight", "sans-serif"]
 		},

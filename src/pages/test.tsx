@@ -2,13 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+
 const Test = () => {
   return (
     <div>
       <Header />
       <div>
         <section className="flex flex-row">
-          <div className="md:w-[32rem]">
+          <div className="md:w-[50rem]">
             <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHAT?</h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
               <span className="text-rose-600">외상청</span>은 "한국외국어대학교 기상청"의 준말로, 서울 캠퍼스와
@@ -52,11 +53,6 @@ const Test = () => {
               
               Design: GBT학부 정준서
             </p>
-          </div>
-
-          <div className="block hover:-translate-y-1 hover:scale-100 duration-300">
-  
-            ddddddd
           </div>
 
 

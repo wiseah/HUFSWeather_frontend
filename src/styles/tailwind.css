@@ -1,3 +1,29 @@
 @tailwind base;
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "GmarketSansBold";
+  
+    src: url("../static/font/GmarketSansTTFBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "GmarketSansMedium";
+  
+    src: url("../static/font/GmarketSansTTFMedium.ttf");
+  }
+  
+  @font-face {
+    font-family: "GmarketSansLight";
+  
+    src: url("../static/font/GmarketSansTTFLight.ttf");
+  }
+
 @tailwind components;
 @tailwind utilities;

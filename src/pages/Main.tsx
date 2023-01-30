@@ -1,17 +1,24 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HeaderMy1 from "../components/HeaderMy1";
+import radar from "../../src/static/images/radar.png";
 
 const Main = () => {
   return (
     <div>
-      <Header />
+      <HeaderMy1 />
       <div>
-        <section>
-          <div className="md:w-[32rem]">
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHAT?</h2>
+        <section className="flex flex-row">
+          <div className="md:w-[60rem]">
+            <h2 className=" md:ml-20 text-3xl md:text-base font-GangwonBold">
+              WHAT?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
-              <span className="text-rose-600">외상청</span>은 "한국외국어대학교 기상청"의 준말로, 서울 캠퍼스와
+              <span className="text-rose-600">외상청</span>은 "한국
+              <span className="text-rose-600">외</span>국어대학교 기
+              <span className="text-rose-600">상청</span>"의 준말로, 서울
+              캠퍼스와
               <br></br>
               글로벌 캠퍼스의 날씨 정보를 간단하고 명료하게 전달해드립니다.
               <br></br>
@@ -20,7 +27,9 @@ const Main = () => {
               유용한 정보를 제공하고자 합니다.
             </p>
 
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHY?</h2>
+            <h2 className=" mt-6 md:ml-20 text-3xl md:text-base font-GangwonBold">
+              WHY?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
               에브리타임에서 캠퍼스의 날씨를 물어보는 글을 자주 보았습니다.
               <br></br>
@@ -32,9 +41,9 @@ const Main = () => {
               또한, 통학생들은 캠퍼스의 날씨를 알기 위해서는 검색을 거쳐야 하는
               번거로움이 있고,
               <br></br>
-              실제 온도보다 더 낮거나 높은 경우에는 '겉옷 챙겨올걸',
+              실제 온도보다 더 낮거나 높은 경우에는 <span className="text-blue-700">'겉옷 챙겨올걸'</span>,
               <br></br>
-              '조금 더 얇게 입고올걸' 하는 후회를 하곤 합니다.
+              <span className="text-blue-700 ">'조금 더 얇게 입고올걸'</span> 하는 후회를 하곤 합니다.
               <br></br>
               이에 저희 외상청은 "현재기온"을 통해 학우분들이 날씨 정보를 쉽게
               얻을 수 있고,
@@ -45,7 +54,9 @@ const Main = () => {
               기획하게 되었습니다.
             </p>
 
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">WHO?</h2>
+            <h2 className=" md:ml-20 text-3xl md:text-base font-GangwonBold">
+              WHO?
+            </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
               FrontEnd: 환경학과 김현아 & 컴퓨터공학부 이교은
               <br></br>
@@ -53,6 +64,9 @@ const Main = () => {
               <br></br>
               Design: GBT학부 정준서
             </p>
+          </div>
+          <div>
+            <img className=" w-30 h-45 m-8 float-left" src={radar} alt="radar1" />
           </div>
         </section>
       </div>
