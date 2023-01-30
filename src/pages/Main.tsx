@@ -1,21 +1,24 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import HeaderMy from "../components/HeaderMy";
+import HeaderMy1 from "../components/HeaderMy1";
+import radar from "../../src/static/images/radar.png";
 
 const Main = () => {
   return (
     <div>
-      <HeaderMy />
+      <HeaderMy1 />
       <div>
-        <section>
-          <div className="md:w-[32rem]">
+        <section className="flex flex-row">
+          <div className="md:w-[50rem]">
             <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">
               WHAT?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
-              <span className="text-rose-600">외상청</span>은 "한국외국어대학교
-              기상청"의 준말로, 서울 캠퍼스와
+              <span className="text-rose-600">외상청</span>은 "한국
+              <span className="text-rose-600">외</span>국어대학교 기
+              <span className="text-rose-600">상청</span>"의 준말로, 서울
+              캠퍼스와
               <br></br>
               글로벌 캠퍼스의 날씨 정보를 간단하고 명료하게 전달해드립니다.
               <br></br>
@@ -24,7 +27,7 @@ const Main = () => {
               유용한 정보를 제공하고자 합니다.
             </p>
 
-            <h2 className=" md:ml-20 text-sm md:text-base font-GangwonBold">
+            <h2 className=" mt-6 md:ml-20 text-sm md:text-base font-GangwonBold">
               WHY?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
@@ -61,6 +64,9 @@ const Main = () => {
               <br></br>
               Design: GBT학부 정준서
             </p>
+          </div>
+          <div>
+            <img className="w-30 h-45 m-8" src={radar} alt="radar1" />
           </div>
         </section>
       </div>

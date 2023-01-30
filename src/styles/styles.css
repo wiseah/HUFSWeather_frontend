@@ -621,6 +621,10 @@ video {
   z-index: 50;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -650,12 +654,24 @@ video {
   margin-right: 2.5rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -888,8 +904,8 @@ video {
     margin-left: 5rem;
   }
 
-  .md\:w-\[32rem\] {
-    width: 32rem;
+  .md\:w-\[50rem\] {
+    width: 50rem;
   }
 
   .md\:flex-row {
