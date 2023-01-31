@@ -631,10 +631,13 @@ video {
   position: absolute;
 }
 
+<<<<<<< Updated upstream
 .relative {
   position: relative;
 }
 
+=======
+>>>>>>> Stashed changes
 .sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -643,6 +646,10 @@ video {
 .inset-x-0 {
   left: 0px;
   right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .top-0 {
