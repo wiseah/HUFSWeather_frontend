@@ -4,7 +4,9 @@ import thermometer from "../../src/static/images/thermometer.png";
 
 const Header = () => {
   return (
+
     <header className="sticky inset-x-0 top-0 z-50 left-0 bg-cyan-200 text-gray-500 font-GangwonBold">
+
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img

@@ -27,7 +27,7 @@ const Main = () => {
               유용한 정보를 제공하고자 합니다.
             </p>
 
-            <h2 className=" mt-6 md:ml-20 text-sm md:text-base font-GangwonBold">
+            <h2 className=" mt-6 md:ml-20 text-3xl md:text-base font-GangwonBold">
               WHY?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
@@ -41,13 +41,13 @@ const Main = () => {
               또한, 통학생들은 캠퍼스의 날씨를 알기 위해서는 검색을 거쳐야 하는
               번거로움이 있고,
               <br></br>
-              실제 온도보다 더 낮거나 높은 경우에는 '겉옷 챙겨올걸',
+              실제 온도보다 더 낮거나 높은 경우에는 <span className="text-blue-700">'겉옷 챙겨올걸'</span>,
               <br></br>
-              '조금 더 얇게 입고올걸' 하는 후회를 하곤 합니다.
+              <span className="text-blue-700 ">'조금 더 얇게 입고올걸'</span> 하는 후회를 하곤 합니다.
               <br></br>
               이에 저희 외상청은{" "}
               <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
-                현재기온
+                "현재기온"
               </span>
               을 통해 학우분들이 날씨 정보를 쉽게 얻을 수 있고,
               <br></br>
@@ -57,7 +57,7 @@ const Main = () => {
               를 통해 갑작스런 더위나 추위에 대비할 수 있으며,
               <br></br>
               <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
-                추천코디
+                "추천코디"
               </span>
               로 아침 준비시간을 절약할 수 있는 수단을 만들어보고자 기획하게
               되었습니다.
