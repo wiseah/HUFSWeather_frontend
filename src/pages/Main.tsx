@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeaderMy1 from "../components/HeaderMy1";
 import radar from "../../src/static/images/radar.png";
+import season from "../../src/static/images/season.png";
 
 const Main = () => {
   return (
@@ -10,8 +10,8 @@ const Main = () => {
       <HeaderMy1 />
       <div>
         <section className="flex flex-row">
-          <div className="md:w-[60rem]">
-            <h2 className=" md:ml-20 text-3xl md:text-base font-GangwonBold">
+          <div className="md:w-[50rem]">
+            <h2 className="mt-6 md:ml-20 text-sm md:text-base font-GangwonBold">
               WHAT?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
@@ -45,16 +45,25 @@ const Main = () => {
               <br></br>
               <span className="text-blue-700 ">'조금 더 얇게 입고올걸'</span> 하는 후회를 하곤 합니다.
               <br></br>
-              이에 저희 외상청은 "현재기온"을 통해 학우분들이 날씨 정보를 쉽게
-              얻을 수 있고,
+              이에 저희 외상청은{" "}
+              <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
+                "현재기온"
+              </span>
+              을 통해 학우분들이 날씨 정보를 쉽게 얻을 수 있고,
               <br></br>
-              "체감온도"를 통해 갑작스런 더위나 추위에 대비할 수 있으며,
+              <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
+                "체감온도"
+              </span>
+              를 통해 갑작스런 더위나 추위에 대비할 수 있으며,
               <br></br>
-              추천코디로 아침 준비시간을 절약할 수 있는 수단을 만들어보고자
-              기획하게 되었습니다.
+              <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
+                "추천코디"
+              </span>
+              로 아침 준비시간을 절약할 수 있는 수단을 만들어보고자 기획하게
+              되었습니다.
             </p>
 
-            <h2 className=" md:ml-20 text-3xl md:text-base font-GangwonBold">
+            <h2 className="md:ml-20 text-sm md:text-base font-GangwonBold">
               WHO?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
@@ -66,7 +75,7 @@ const Main = () => {
             </p>
           </div>
           <div>
-            <img className=" w-30 h-45 m-8 float-left" src={radar} alt="radar1" />
+            <img className="w-30 h-45 mt-10" src={radar} alt="radar" />
           </div>
         </section>
       </div>

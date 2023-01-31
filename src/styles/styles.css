@@ -570,6 +570,12 @@ video {
 }
 
 @font-face {
+  font-family: "GmarketSansBold";
+
+  src: url("../static/font/GmarketSansTTFBold.ttf");
+}
+
+@font-face {
   font-family: "GmarketSansMedium";
 
   src: url("../static/font/GmarketSansTTFMedium.ttf");
@@ -637,14 +643,6 @@ video {
   z-index: 50;
 }
 
-.float-left {
-  float: left;
-}
-
-.m-8 {
-  margin: 2rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -682,6 +680,14 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -690,8 +696,8 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -740,6 +746,10 @@ video {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .flex-row {
@@ -845,6 +855,11 @@ video {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -877,6 +892,11 @@ video {
 .text-blue-900 {
   --tw-text-opacity: 1;
   color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-700:hover {
@@ -924,10 +944,6 @@ video {
     margin-left: 5rem;
   }
 
-  .md\:w-\[60rem\] {
-    width: 60rem;
-  }
-
   .md\:w-\[50rem\] {
     width: 50rem;
   }
@@ -941,3 +957,4 @@ video {
     line-height: 1.5rem;
   }
 }
+
