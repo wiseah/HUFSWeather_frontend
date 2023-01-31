@@ -10,11 +10,11 @@ const HeaderMy1 = () => {
         </div>
         <div>
           <div className="flex flex-row ml-5 mt-3 text-5xl">
-            <div className="mt-2 text-rose-600">오</div>
-            <img className="flex  w-6 h-15 mt-[2px] " src={the} alt="온도계" />
-            <div className="mt-2 text-black">상청</div>
+            <div className="relative mt-2 text-rose-600">오</div>
+              <img className="absolute w-7 h-[60px] ml-9 mt-[4px]" src={the} alt="온도계" />
+            <div className="ml-6 mt-2 text-black">상청</div>
           </div>
-          <p className="ml-5 text-xs font-GmarketLight">
+          <p className="ml-5 mt-2 text-xs font-GmarketLight">
             HANKUK UNIVERSITY OF FOREIGN STUDIES THE METAOBOLOGICAL AGENCY
           </p>
         </div>
