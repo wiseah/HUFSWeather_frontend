@@ -10,6 +10,7 @@ module.exports = {
       GangwonBold: ["GangwonEduPowerExtraBoldA", "sans-serif"],
       GmarketMedium: ["GmarketSansMedium", "sans-serif"],
       GmarketLight: ["GmarketSansLight", "sans-serif"],
+      Jalnan: ["Jalnan", "sans-serif"],
     },
   },
 

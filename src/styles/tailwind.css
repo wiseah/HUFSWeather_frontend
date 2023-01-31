@@ -25,6 +25,12 @@
     src: url("../static/font/GmarketSansTTFLight.ttf");
   }
 
+  @font-face {
+    font-family: "Jalnan";
+  
+    src: url("../static/font/Jalnan.ttf");
+  }
+
 @tailwind components;
 @tailwind utilities;
 
