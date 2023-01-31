@@ -5,15 +5,7 @@ const Footer = () => {
   const CURRENT_YEAR = CURRENT_DAY.getFullYear();
 
   return (
-<<<<<<< HEAD
     <footer className="text-gray-700 bottom-0 w-full font-GmarketLight ">
-=======
-<<<<<<< Updated upstream
-    <footer className="text-gray-700 font-GmarketLight  ">
-=======
-    <footer className="text-gray-700 bottom-0 w-full font-GmarketLight ">
->>>>>>> Stashed changes
->>>>>>> master
       <div className="bg-cyan-200">
         <div className="container mx-auto pt-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left font-GmarketMedium">
