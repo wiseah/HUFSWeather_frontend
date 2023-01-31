@@ -15,9 +15,9 @@ const Main = () => {
               WHAT?
             </h2>
             <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
-              <span className="text-rose-600">외상청</span>은 "한국
-              <span className="text-rose-600">외</span>국어대학교 기
-              <span className="text-rose-600">상청</span>"의 준말로, 서울
+              <span className="text-rose-600 font-GmarketMedium">외상청</span>은 "한국
+              <span className="text-rose-600 font-GmarketMedium">외</span>국어대학교 기
+              <span className="text-rose-600 font-GmarketMedium">상청</span>"의 준말로, 서울
               캠퍼스와
               <br></br>
               글로벌 캠퍼스의 날씨 정보를 간단하고 명료하게 전달해드립니다.
@@ -41,9 +41,9 @@ const Main = () => {
               또한, 통학생들은 캠퍼스의 날씨를 알기 위해서는 검색을 거쳐야 하는
               번거로움이 있고,
               <br></br>
-              실제 온도보다 더 낮거나 높은 경우에는 <span className="text-blue-700">'겉옷 챙겨올걸'</span>,
+              실제 온도보다 더 낮거나 높은 경우에는 <span className="text-cyan-500 font-GmarketMedium">'겉옷 챙겨올걸'</span>,
               <br></br>
-              <span className="text-blue-700 ">'조금 더 얇게 입고올걸'</span> 하는 후회를 하곤 합니다.
+              <span className="text-cyan-500 font-GmarketMedium ">'조금 더 얇게 입고올걸'</span> 하는 후회를 하곤 합니다.
               <br></br>
               이에 저희 외상청은{" "}
               <span className="text-blue-900 hover:text-blue-300 font-GangwonBold">
