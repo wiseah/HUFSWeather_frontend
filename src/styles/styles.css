@@ -587,6 +587,12 @@ video {
   src: url("../static/font/GmarketSansTTFLight.ttf");
 }
 
+@font-face {
+  font-family: "Jalnan";
+
+  src: url("../static/font/Jalnan.ttf");
+}
+
 .container {
   width: 100%;
 }
@@ -850,6 +856,10 @@ video {
   font-family: GangwonEduPowerExtraBoldA, sans-serif;
 }
 
+.font-Jalnan {
+  font-family: Jalnan, sans-serif;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -914,9 +924,9 @@ video {
   color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
-.text-blue-700 {
+.text-cyan-500 {
   --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(6 182 212 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-700:hover {
