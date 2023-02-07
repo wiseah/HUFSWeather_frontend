@@ -1,6 +1,6 @@
 import titlelogo from "../../src/static/images/titlelogo.png";
 import thermometer from "../../src/static/images/thermometer.png";
-
+/*
 const HeaderMy = () => {
   return (
     <header className="sticky inset-x-0 top-0 z-50 left-0 bg-cyan-200 font-GangwonBold">
@@ -41,3 +41,4 @@ const HeaderMy = () => {
 };
 
 export default HeaderMy;
+*/
