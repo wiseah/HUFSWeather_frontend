@@ -11,10 +11,10 @@ const Main = () => {
       <div>
         <section className="flex flex-row">
           <div className="md:w-[50rem]">
-            <h2 className="mt-6 md:ml-20 text-sm md:text-base font-GangwonBold">
+            <h2 className="mt-6 md:ml-28 text-sm md:text-base font-GangwonBold">
               WHAT?
             </h2>
-            <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
+            <p className="mt-1 mb-6 md:ml-28 text-sm md:text-base font-GmarketLight">
               <span className="text-rose-600 font-GmarketMedium">외상청</span>은 "한국
               <span className="text-rose-600 font-GmarketMedium">외</span>국어대학교 기
               <span className="text-rose-600 font-GmarketMedium">상청</span>"의 준말로, 서울
@@ -27,10 +27,10 @@ const Main = () => {
               유용한 정보를 제공하고자 합니다.
             </p>
 
-            <h2 className=" mt-6 md:ml-20 text-3xl md:text-base font-GangwonBold">
+            <h2 className=" mt-6 md:ml-28 text-3xl md:text-base font-GangwonBold">
               WHY?
             </h2>
-            <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
+            <p className="mt-1 mb-6 md:ml-28 text-sm md:text-base font-GmarketLight">
               에브리타임에서 캠퍼스의 날씨를 물어보는 글을 자주 보았습니다.
               <br></br>
               지역을 기준으로 날씨 정보를 알려주는 기상청이나 날씨 앱들은
@@ -63,10 +63,10 @@ const Main = () => {
               되었습니다.
             </p>
 
-            <h2 className="md:ml-20 text-sm md:text-base font-GangwonBold">
+            <h2 className="md:ml-28 text-lg md:text-base font-GangwonBold">
               WHO?
             </h2>
-            <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base font-GmarketLight">
+            <p className="mt-1 mb-6 md:ml-28 text-sm md:text-base font-GmarketLight">
               FrontEnd: 환경학과 김현아 & 컴퓨터공학부 이교은
               <br></br>
               BackEnd: 컴퓨터공학부 노기연 & 전자공학과 전승재
@@ -75,7 +75,7 @@ const Main = () => {
             </p>
           </div>
           <div>
-            <img className="w-30 h-45 mt-10" src={radar} alt="radar" />
+            <img className="w-25 h-45 mt-7 mb-3 ml-14" src={radar} alt="radar" />
           </div>
         </section>
       </div>

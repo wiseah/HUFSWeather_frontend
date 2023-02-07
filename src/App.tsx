@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
     
-      <Tem1 />
+      <Main />
       
     </div>
   );
