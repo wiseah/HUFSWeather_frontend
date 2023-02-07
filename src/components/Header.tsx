@@ -1,7 +1,7 @@
 import React from "react";
 import titlelogo from "../../src/static/images/titlelogo.png";
 import thermometer from "../../src/static/images/thermometer.png";
-
+/*
 const Header = () => {
   return (
 
@@ -44,3 +44,4 @@ const Header = () => {
 };
 
 export default Header;
+*/
