@@ -10,52 +10,60 @@ const Tem1 = () => {
       <div>
       <section className="mt-3 mb-3 md:ml-28 mr-28 text-sm md:text-base">
 
-        <div className="grid grid-cols-4 gap-0.5">
-            <div className="bg-red-500 text-white h-44 ">
+        <div className="grid grid-cols-4 gap-0.5 rounded-lg text-center font-GmarketLight">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 01 
+                    01 <br></br>
+                    습도
                 </p>
             </div>
 
-            <div className="bg-blue-500 text-white h-full col-span-2 row-span-2">
+            <div className="bg-blue-300 text-white h-full rounded-md col-span-2 row-span-2">
                 <p>
-                    grid 02 
+                    02 <br></br>
+                    기온
                 </p>
             </div>
 
-            <div className="bg-yellow-500 text-white h-44">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 03
+                    03 <br></br>
+                    최저/최고
                 </p>
             </div>
 
-            <div className="bg-purple-500 text-white h-44">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 04
+                    04 <br></br>
+                    바람
                 </p>
             </div>
 
-            <div className="bg-purple-500 text-white h-44">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 05
+                    05 <br></br>
+                    시정-대기혼탁 or 기압
                 </p>
             </div>
 
-            <div className="bg-purple-500 text-white h-44">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 06
+                    06 <br></br>
+                    일출/일몰
                 </p>
             </div>
 
-            <div className="bg-purple-500 text-white h-44 col-span-2">
+            <div className="bg-blue-300 text-white h-44 rounded-md col-span-2">
                 <p>
-                    grid 07
+                    07 <br></br>
+                    미세먼지
                 </p>
             </div>
 
-            <div className="bg-purple-500 text-white h-44">
+            <div className="bg-blue-300 text-white h-44 rounded-md">
                 <p>
-                    grid 08
+                    08 <br></br>
+                    구름
                 </p>
             </div>
         </div>
